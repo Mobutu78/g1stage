@@ -1,0 +1,34 @@
+/* style2.css */
+
+/* Ajouter une image de fond d'écran */
+body {
+    background-image: url('gnome.jpg'); /* Chemin de l'image */
+    background-size: cover; /* Adapter l'image à la taille de l'écran */
+    background-repeat: no-repeat; /* Pas de répétition de l'image */
+    background-attachment: fixed; /* L'image reste fixe pendant le défilement */
+    background-position: center; /* Centrer l'image */
+}
+
+/* Titre de niveau 1 : taille 2em, couleur rouge, Arial Black, texte centré */
+h1 {
+    font-size: 2em;
+    color: red;
+    font-family: 'Arial Black', sans-serif;
+    text-align: center;
+}
+
+/* Titre de niveau 2 : taille 1.4em, couleur bleu, Arial, gras, italique */
+h2 {
+    font-size: 1.4em;
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Paragraphe : taille normale, couleur noire, Verdana */
+p {
+    font-size: normal;
+    color: black;
+    font-family: Verdana, sans-serif;
+}

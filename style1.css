@@ -1,0 +1,25 @@
+/* style1.css */
+
+/* Titre de niveau 1 : taille 2em, couleur rouge, police Arial Black, texte centré */
+h1 {
+    font-size: 2em;
+    color: red;
+    font-family: 'Arial Black', sans-serif;
+    text-align: center;
+}
+
+/* Titre de niveau 2 : taille 1.4em, couleur bleu, police Arial, gras, italique */
+h2 {
+    font-size: 1.4em;
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Paragraphe : taille normale, couleur noire, police Verdana */
+p {
+    font-size: normal;
+    color: black;
+    font-family: Verdana, sans-serif;
+}

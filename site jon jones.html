@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jon Jones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Jon Jones</h1>
+        <img src="JonBonesJones.jpg" alt="Jon Jones" id="logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://fr.wikipedia.org/wiki/Jon_Jones_(MMA)">Introduction</a></li>
+            <li><a href="http://ufcstats.com/fighter-details/07f72a2a7591b409">Bilan</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Palmarès_de_Jon_Jones">Carrière</a></li>
+            <li><a href="a propos.html">À propos</a></li>
+            <li><a href="file://srv-2019/cazanove$/web/autre/programation.html">Programation</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="videos-wrapper">
+    <div class="video-container">
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/wCjyS7zvPPs" 
+            title="Jon Jones Choking Until His Opponent Collapses" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        <div class="video-description">
+            <p>Jon Jones VS Lyoto Machida</p>
+        </div>
+    </div>
+
+    <div class="video-container">
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/8lKirrARb0w" 
+            title="One Moment From Every Jon Jones Fight" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        <div class="video-description">
+            <p>Une compilation des moments les plus emblématiques de la carrière de Jon Jones.</p>
+        </div>
+    </div>
+</div>
+ 	
+
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>Jon Jones est un combattant professionnel américain, considéré comme l'un des meilleurs combattants de l'histoire de <span class="highlight">l'UFC</span>. Il est connu pour sa polyvalence, ses compétences techniques exceptionnelles et sa domination dans la catégorie des poids mi-lourds.</p>
+        </section>
+        <section id="histoire">
+            <h2>Histoire</h2>
+            <p>Jon Jones est né le 19 juillet 1987 à Rochester, New York. Il est devenu le plus jeune champion de l'histoire de l'UFC à l'âge de 23 ans. Au fil des années, Jones a marqué l'UFC par sa domination et ses performances exceptionnelles, tout en surmontant de nombreux défis personnels.</p>
+        </section>
+        <section id="carriere">
+            <h2>Carrière</h2>
+            <div class="gallery">
+                <div>
+                    <strong>Champion de l'UFC (Poids Mi-lourds)</strong>
+                    <a href="https://upload.wikimedia.org/wikipedia/commons/4/4c/Jon_Jones_vs_Dan_Henderson_UFC_151.jpg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Jon_Jones_vs_Dan_Henderson_UFC_151.jpg" alt="Jon Jones UFC Champion">
+                    </a>
+                </div>
+                <div>
+                    <strong>Victoires marquantes</strong>
+                    <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Jon_Jones_2015.jpg/800px-Jon_Jones_2015.jpg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Jon_Jones_2015.jpg/800px-Jon_Jones_2015.jpg" alt="Jon Jones victoire">
+                    </a>
+                </div>
+                <div>
+                    <strong>Rivalités avec Daniel Cormier et Alexander Gustafsson</strong>
+                    <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Daniel_Cormier_vs_Jon_Jones_2.jpg/800px-Daniel_Cormier_vs_Jon_Jones_2.jpg">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Daniel_Cormier_vs_Jon_Jones_2.jpg/800px-Daniel_Cormier_vs_Jon_Jones_2.jpg" alt="Jon Jones contre Daniel Cormier">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <section id="inscription-ufc">
+    <h2>Inscription à la liste d'attente pour le prochain UFC</h2>
+    <form action="submit_form.php" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" required>
+
+        <label for="ville">Ville :</label>
+        <input type="text" id="ville" name="ville" required>
+
+        <label for="commentaires">Commentaires :</label>
+        <textarea id="commentaires" name="commentaires" rows="4"></textarea>
+
+        <button type="submit">S'inscrire</button>
+    </form>
+</section>
+
+    <div class="footer-container">
+        <!-- Section : À propos -->
+        <div class="footer-section about">
+            <h2>À propos</h2>
+            <p>Jon Jones est un combattant professionnel américain, reconnu comme l'un des plus grands dans l'histoire des arts martiaux mixtes (MMA).</p>
+        </div>
+
+        <!-- Section : Liens rapides -->
+        <div class="footer-section links">
+            <h2>Liens rapides</h2>
+            <ul>
+                <li><a href="https://fr.wikipedia.org/wiki/Jon_Jones_(MMA)">Introduction</a></li>
+                <li><a href="http://ufcstats.com/fighter-details/07f72a2a7591b409">Bilan</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Palmarès_de_Jon_Jones">Carrière</a></li>
+                <li><a href="file:///K:/web/autre/a%20propos.html">À propos</a></li>
+            </ul>
+        </div>
+
+        <!-- Section : Contact -->
+        <div class="footer-section contact">
+            <h2>Contact</h2>
+            <p><i class="fas fa-envelope"></i> contact@jonjones.com</p>
+            <p><i class="fas fa-phone-alt"></i> +1 234 567 890</p>
+            <p><i class="fas fa-map-marker-alt"></i> Rochester, New York, États-Unis</p>
+        </div>
+
+        <!-- Section : Suivez-nous -->
+        <div class="footer-section social">
+            <h2>Suivez-nous</h2>
+            <a href="https://twitter.com/JonnyBones" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/jonnybones" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Jon Jones | Tous droits réservés.</p>
+    </div>
+    </head>
+<body>
+    <h1>Jon Jones</h1>
+    <div class="gallery grid-3x2">
+        <img src="_128855081_gettyimages-1471349415.jpg" alt="Jon Jones 1">
+        <img src="GettyImages-108853849.jpg" alt="Jon Jones 2">
+        <img src="GettyImages-135785638.jpg" alt="Jon Jones 3">
+        <img src="GettyImages-461004726.jpg" alt="Jon Jones 4">
+        <img src="GettyImages-2185189651.jpg" alt="Jon Jones 5">
+        <img src="Rfk5Pdzhons_slug.jpg" alt="Jon Jones 6">
+    </div>
+    <br>
+    <div class="gallery grid-3x2">
+        <img src="GettyImages-824380820_0.jpg" alt="Jon Jones 7">
+        <img src="g.jpg" alt="Jon Jones 8">
+        <img src="jon-jones-rashad-evans-ufc-145-1.jpg" alt="Jon Jones 9">
+        <img src="JonBonesJones.jpg" alt="Jon Jones 10">
+        <img src="s-l400.jpg" alt="Jon Jones 11">
+        <img src="images.jpg" alt="Jon Jones 12">
+    </div>
+</body>
+</html>
+</footer>
+
+</body>
+</html>
